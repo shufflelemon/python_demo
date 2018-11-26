@@ -9,7 +9,7 @@ domain = "vdn1.vzuu.com"
 host = "218.64.94.195"
 url = "/SD/"
 file = "2ed292f0-ddb8-11e8-8886-0242ac112a15.mp4"
-ts = "1542188723"
+ts = int(round(time.time()))
 print ts
 key = '********'
 strtosign = url + file + '-' + str(ts) + '-0-0-' + key
